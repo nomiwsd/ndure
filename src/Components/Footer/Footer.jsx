@@ -11,11 +11,13 @@ function Footer() {
         <div>
             <div className="container-fluid px-0">
                 <span className="signhead">SUBSCRIBE TO OUR NEWSLETTER</span>
-                <div className=" align-items-start  py-4">
-                    <AiOutlineMail className='emailic' />
-                    <div className='row  justify-content-center m-0'>
-                        <input className="inputemail col-5 py-2" type="email" placeholder="ENTER EMAIL ADDRESS" />
-                        <Button variant="" size="sm" className="col-5 col-lg-1 mx-0 btncl py-3">SUBSCRIBE</Button>{' '}</div>
+                <div className=" align-items-start mx-3 px-3 py-4">
+                        <div className='row  justify-content-lg-center m-0'>
+                     <div className="col-lg-4 col-8 subscribesect row m-0 p-0 justify-content-lg-end">
+                        <AiOutlineMail className='emailic d-none d-md-block col-lg-1 col-1' />
+                            <input className="inputemail py-3 col-lg-11 col-10" type="email" placeholder="ENTER EMAIL ADDRESS"  /></div>   
+
+                            <Button variant="" size="sm" className="col-lg-1 col-4 mx-0 btncl py-3">SUBSCRIBE</Button>{' '}</div>
                 </div>
                 <footer className="text-center text-lg-start ">
                     <div className="container">

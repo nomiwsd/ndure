@@ -1,44 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 .swiperslide img {
+  width: 100%;
+  height: 100% !important;
+
+}
+
+@media screen and (max-width:320px) {
+
+  .swiperslide img {
     width: 100%;
-    height:100% !important;
-  
- }
-  .swiperbuttons{
-    top:0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 5;
+    height: 213px !important;
   }
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+}
+
+.swiperbuttons {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-position: cover;
+
+}
+
+.btnpos {
+  transform: translateY(-130px);
+  z-index: 9;
+  position: absolute;
+  width: 100%;
+}
+
+.swiperbtn {
+  color: black;
+  background-color: #fff;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 700 !important;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.swiperbtn:hover {
+  background-color: #fff;
+  color: #ad1b3c;
+}
+
+.swiper-button-prev {
+  color: #636a6a;
+  position: absolute;
+  left: 120px;
+  border: 2px solid #636a6a;
+  padding: 20px !important;
+}
+
+.swiper-button-next {
+  color: #636a6a;
+  position: absolute;
+  right: 120px;
+  border: 2px solid #636a6a;
+  padding: 20px !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 16px;
+}
+
+@media screen and (max-width:425px) {
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper-button-next {
+    display: none;
+  }
+
+  .swiperbtn {
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 700 !important;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .swiperbtn:hover {
+    color: white;
+    background-color: black;
   }
   
-  .swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-position: cover;
-  
-  }
-  .btnpos{
-    transform: translateY(-130px);
+  .btnpos {
+    transform: translateY(-40px);
     z-index: 9;
     position: absolute;
     width: 100%;
   }
+
+  .swiper-pagination-bullets {
+    transform: translateY(-50px);
+  }
+}
