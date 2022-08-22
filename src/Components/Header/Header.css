@@ -1,9 +1,15 @@
+.headerd{
+    overflow-x: hidden;
+}
+.searchdiv{
+    position: relative;
+}
 .searchinp{
     border-radius: 12px;
     border: 1px solid black;
 }
 .searchic{
     position:absolute;
-    top: 28px;
-    right: 80px;
+    top: 12px;
+    right: 10px;
 }

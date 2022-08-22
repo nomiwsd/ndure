@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.emailad{
+  background-color: white;
+}
 .inputemail{
     border: 0px;
-    background-color: rgb(226, 226, 229);
-    
+ background-color: rgb(248, 248, 248);
 }
 .inputemail:focus {
     outline: none !important;
@@ -10,10 +12,10 @@
 }
 
 .emailic  {
-    position: absolute;
-   top:24.5%;
-   right: 24%;
    font-size: 16px;
+}
+.btncl{
+  background-color: rgb(248, 248, 248);
 }
   
 
@@ -67,11 +69,20 @@ font-size:18px;
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-  .linkicon1{
-    font-size: 23px;
+  .linkicon{
+    z-index: 9;
+    transform: translateZ(40px);
+    position: absolute;
+    top:10px;
+    left:10px;
+    transform: translateY(-50%);
 }
-.linkicon{
-    font-size: 30px;
+.linkicon1{
+    z-index: 9;
+    position: absolute;
+    top:10px;
+    left:10px;
+    transform: translateY(-50%);
 }
 .copyright{
     background-color: rgba(204, 17, 17, 0.63);
@@ -79,83 +90,21 @@ font-size:18px;
     font-size: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
-
-.content-overlay1 {
-    background: blue;
-    position: absolute;
-    width: 33px;
-    height:33px;
-    left: 65.4%;
-    top: 42.5%;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-     border-radius:100%;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
+  .circle-icon-blue{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
   }
-  
-  .content1:hover .content-overlay1{
-    opacity: 1;
-    z-index:-1;
+  .circle-icon-red{
+    z-index: 1;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
   }
-  .content1:hover{
-    top: 50%;
-    left: 50%;
-    opacity: 1;
+  .circle-icon-blue:hover{
+    background-color: blue;
   }
-  .content-overlay2 {
-    background: blue;
-    position: absolute;
-    width: 33px;
-    height:33px;
-    left: 935px;
-    top: 42.5%;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-     border-radius:100%;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
+  .circle-icon-red:hover{
+    background-color: red;
   }
-  
-  .content2:hover .content-overlay2{
-    opacity: 1;
-    z-index:-1;
-  }
-  .content2:hover{
-    top: 50%;
-    left: 50%;
-    opacity: 1;
-  }
-  .content-overlay3 {
-    background:red;
-    position: absolute;
-    width: 33px;
-    height:33px;
-    left: 72%;
-    top: 42%;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-     border-radius:100%;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
-  }
-  
-  .content3:hover .content-overlay3{
-    opacity: 1;
-    z-index:-1;
-  }
-  .content3:hover{
-    top: 50%;
-    left: 50%;
-    opacity: 1;
-  }
-  .fadeIn-left{
-    left: 20%;
-  }
- 
