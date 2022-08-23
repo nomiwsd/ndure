@@ -1,17 +1,19 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
-import Landing from './Components/Landing/Landing';
-import Categories from './Components/Categories/Categories';
-
+import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
+import Homepage from './Components/Homepage';
+import Secheader from './Components/Secheader/Secheader';
 function App() {
   return (
     <div className="App">
-    <Header/>
-     <Landing/>
-     <Categories/>
-     <Footer/>
+      <Router>
+        <Secheader/>
+        <Routes>
+        {/* <Route exact path="/" element={<Homepage/>}/> */}
+        </Routes>
+        <Footer/>
+      </Router>
     </div>
   );
 }

@@ -40,9 +40,9 @@ function Landing() {
       >
        <div className='row m-0 justify-content-center justify-content-end btnpos'>
         <div className="swiperbuttons row col-12 col-lg-5 col-md-8 gap-md-2 mx-0 gap-lg-2 align-items-center justify-content-center p-0">
-                <Button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">MEN</Button>
-                <Button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">WOMEN</Button>
-                <Button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">KIDS</Button>
+                <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">MEN</button>
+                <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">WOMEN</button>
+                <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">KIDS</button>
         </div> 
        </div>
 

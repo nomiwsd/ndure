@@ -4,6 +4,7 @@ import { FaInstagram } from 'react-icons/fa'
 import { ImYoutube2 } from 'react-icons/im'
 import { AiOutlineMail } from 'react-icons/ai'
 import { Button } from 'react-bootstrap'
+import Accordion from 'react-bootstrap/Accordion';
 import './Footer.css'
 
 function Footer() {
@@ -11,22 +12,48 @@ function Footer() {
         <div>
             <div className="container-fluid px-0">
                 <span className="signhead">SUBSCRIBE TO OUR NEWSLETTER</span>
-                <div className=" align-items-start mx-3 px-3 py-4">
-                        <div className='row  justify-content-lg-center m-0'>
-                     <div className="col-lg-4 col-8 subscribesect row m-0 p-0 justify-content-lg-end">
-                        <AiOutlineMail className='emailic d-none d-md-block col-lg-1 col-1' />
-                            <input className="inputemail py-3 col-lg-11 col-10" type="email" placeholder="ENTER EMAIL ADDRESS"  /></div>   
+                <div className=" align-items-start py-4">
+                    <div className='row justify-content-lg-center justify-content-md-center justify-content-sm-center px-4 align-items-center  m-0'>
+                        <div className="col-lg-5 col-md-8 col-8 subscribesect row m-0 p-0 justify-content-center">
+                            <AiOutlineMail className='emailic col-lg-2 col-xlg-1 col-3 col-md-1 ' />
+                            <input className="inputemail py-3 col-md-10 col-lg-9 col-7" type="email" placeholder="ENTER EMAIL ADDRESS" />
+                            </div>
 
-                            <Button variant="" size="sm" className="col-lg-1 col-4 mx-0 btncl py-3">SUBSCRIBE</Button>{' '}</div>
+                        <Button variant="" size="sm" className="col-lg-1 col-4 col-md-2 mx-0 btncl py-3">SUBSCRIBE</Button>{' '}
+                        </div>
                 </div>
+
                 <footer className="text-center text-lg-start ">
                     <div className="container">
                         <section className="">
                             <div className="row">
                                 <hr className="w-100 clearfix d-md-none" />
-
-                                <div className="col-md-2 col-lg-3 col-xl-3  mt-3">
-                                    <ul>
+                                <Accordion className="accordian col-12 d-block d-md-none d-lg-none d-xlg-none" defaultActiveKey="0">
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header ><h5 className="accordianheader">About Ndure</h5></Accordion.Header>
+                        <Accordion.Body className="accordianbody">
+                            <ul className='List'>
+                                <li className='footerli my-2'>
+                                    <a href="#" className="footertxt text-dark ">What is Ndure?</a>
+                                </li>
+                                <li className='footerli my-2'>
+                                    <a href="#" className="footertxt text-dark">Corporate News</a>
+                                </li>
+                                <li className='footerli my-2'>
+                                    <a href="#" className="footertxt text-dark">Customer Reviews</a>
+                                </li>
+                                <li className='footerli my-2'>
+                                    <a href="#" className="footertxt text-dark">Find a Store</a>
+                                </li>
+                                <li className='footerli my-2'>
+                                    <a href="#" className="footertxt text-dark">Careers</a>
+                                </li>
+                            </ul>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+                                <div className="col-md-4 col-lg-3 px-5 col-xl-3 d-none d-md-block d-lg-block d-xlg-block mt-3">
+                                    <ul >
                                         <li className="text-uppercase footerhead">About Ndure</li>
                                         <li className='footerli my-2'>
                                             <a href="#" className="footertxt text-dark ">What is Ndure?</a>
@@ -35,7 +62,7 @@ function Footer() {
                                             <a href="#" className="footertxt text-dark">Corporate News</a>
                                         </li>
                                         <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Customer Reviews</a>
+              sa                              <a href="#" className="footertxt text-dark">Customer Reviews</a>
                                         </li>
                                         <li className='footerli my-2'>
                                             <a href="#" className="footertxt text-dark">Find a Store</a>
@@ -48,9 +75,34 @@ function Footer() {
 
 
                                 <hr className="w-100 clearfix d-md-none" />
-
-
-                                <div className="col-md-3 col-lg-4 col-xl-4  px-5 mt-3">
+                                <Accordion className="accordian col-12 d-block d-md-none d-lg-none d-xlg-none" defaultActiveKey="0">
+                                <Accordion.Item eventKey="1">
+                        <Accordion.Header><h5 className="accordianheader">Help</h5></Accordion.Header>
+                        <Accordion.Body>
+                        <ul className='List'>
+                                        <li className='footerli my-2'>
+                                            <a href="#" className="footertxt text-dark">Order Status</a>
+                                        </li>
+                                        <li className='footerli my-2'>
+                                            <a href="#" className="footertxt text-dark">Shipping and Delivery</a>
+                                        </li>
+                                        <li className='footerli my-2'>
+                                            <a href="#" className="footertxt text-dark">Return and Exchange Policy</a>
+                                        </li>
+                                        <li className='footerli my-2'>
+                                            <a href="#" className="footertxt text-dark">FAQS</a>
+                                        </li>
+                                        <li className='footerli my-2'>
+                                            <a href="#" className="footertxt text-dark">Privacy Policy</a>
+                                        </li>
+                                        <li className='footerli my-2'>
+                                            <a href="#" className="footertxt text-dark">Terms & Conditions</a>
+                                        </li>
+                                    </ul>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+                                <div className="col-md-5 col-lg-4 col-xl-4  d-none d-md-block d-lg-block d-xlg-block mt-3">
                                     <ul>
                                         <li className="text-uppercase footerhead">
                                             Help
@@ -76,7 +128,7 @@ function Footer() {
                                     </ul>
                                 </div>
                                 <hr className="w-100 clearfix d-md-none" />
-                                <div className="col-md-4 col-lg-2 col-xl-2  mt-3">
+                                <div className="col-md-3 col-lg-2 col-xl-2  mt-3">
                                     <h6 className="d-flex text-uppercase footerhead">Connect with Us</h6>
                                     <div className="row justify-content-between">
                                         <div className='position-relative col-3'>
@@ -107,8 +159,13 @@ function Footer() {
 
                 </section>
             </div>
+
+
+
         </div>
     )
+
 }
+
 
 export default Footer
