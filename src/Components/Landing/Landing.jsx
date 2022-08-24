@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import Button from "react-bootstrap/Button"
 import Img1 from '../Assets/slideimg(6).jpg' 
  import Img2 from '../Assets/slideimg(9).jpg' 
 import Img3 from '../Assets/slideimg(7).jpg' 
@@ -36,7 +35,7 @@ function Landing() {
         }}
         navigation={true}
         modules={[Autoplay ,Pagination, Navigation]}
-        className="mySwiper mb-5 position-relative"
+        className="mySwiper mb-5  pb-5 pb-md-0 pb-lg-0 position-relative"
       >
        <div className='row m-0 justify-content-center justify-content-end btnpos'>
         <div className="swiperbuttons row col-12 col-lg-5 col-md-8 gap-md-2 mx-0 gap-lg-2 align-items-center justify-content-center p-0">
@@ -45,7 +44,6 @@ function Landing() {
                 <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">KIDS</button>
         </div> 
        </div>
-
        
        
         <SwiperSlide className="swiperslide1 d-none d-md-block" data-hash="slide1"><img src={Img1} alt="wait for internet"/></SwiperSlide>

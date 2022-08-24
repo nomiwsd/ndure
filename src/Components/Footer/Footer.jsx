@@ -62,7 +62,7 @@ function Footer() {
                                             <a href="#" className="footertxt text-dark">Corporate News</a>
                                         </li>
                                         <li className='footerli my-2'>
-              sa                              <a href="#" className="footertxt text-dark">Customer Reviews</a>
+                                       <a href="#" className="footertxt text-dark">Customer Reviews</a>
                                         </li>
                                         <li className='footerli my-2'>
                                             <a href="#" className="footertxt text-dark">Find a Store</a>

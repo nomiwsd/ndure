@@ -127,7 +127,12 @@
     width: 100%;
   }
 
-  .swiper-pagination-bullets {
-    transform: translateY(-50px);
-  }
+  .swiper-pagination {
+    position: absolute;
+    top:220px;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 1000;
+}
 }
