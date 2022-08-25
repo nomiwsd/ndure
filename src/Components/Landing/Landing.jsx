@@ -14,9 +14,9 @@ import Img3 from '../Assets/slideimg(7).jpg'
 import Img8 from '../Assets/slideimg(3).jpg' 
  import Img9 from '../Assets/slideimg(4).jpg' 
  import Img10 from '../Assets/slideimg(5).jpg' 
- import { Autoplay,Pagination, Navigation } from "swiper";
+ import { Autoplay, Navigation } from "swiper";
 import "./Landing.css";
-
+import { Link } from 'react-router-dom';
 function Landing() {
   return (
 
@@ -34,14 +34,14 @@ function Landing() {
           clickable: true,
         }}
         navigation={true}
-        modules={[Autoplay ,Pagination, Navigation]}
+        modules={[Autoplay , Navigation]}
         className="mySwiper mb-5  pb-5 pb-md-0 pb-lg-0 position-relative"
       >
        <div className='row m-0 justify-content-center justify-content-end btnpos'>
         <div className="swiperbuttons row col-12 col-lg-5 col-md-8 gap-md-2 mx-0 gap-lg-2 align-items-center justify-content-center p-0">
-                <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">MEN</button>
-                <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">WOMEN</button>
-                <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">KIDS</button>
+       <Link to='./Menpage' className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">MEN </Link>
+          <Link to='./Womenpage' className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">WOMEN</Link>
+          <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">KIDS</button>
         </div> 
        </div>
        

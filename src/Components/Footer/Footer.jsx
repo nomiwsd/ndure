@@ -52,8 +52,8 @@ function Footer() {
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
-                                <div className="col-md-4 col-lg-3 px-5 col-xl-3 d-none d-md-block d-lg-block d-xlg-block mt-3">
-                                    <ul >
+                                <div className="col-md-6 col-lg-4  col-xl-4 d-none text-start d-md-block d-lg-block d-xlg-block mt-3">
+                                    <ul className='p-0'>
                                         <li className="text-uppercase footerhead">About Ndure</li>
                                         <li className='footerli my-2'>
                                             <a href="#" className="footertxt text-dark ">What is Ndure?</a>
@@ -75,7 +75,7 @@ function Footer() {
 
 
                                 <hr className="w-100 clearfix d-md-none" />
-                                <Accordion className="accordian col-12 d-block d-md-none d-lg-none d-xlg-none" defaultActiveKey="0">
+                                <Accordion className="accordian col-12 d-block d-md-none px-xl-5 d-lg-none d-xlg-none" defaultActiveKey="0">
                                 <Accordion.Item eventKey="1">
                         <Accordion.Header><h5 className="accordianheader">Help</h5></Accordion.Header>
                         <Accordion.Body>
@@ -102,8 +102,8 @@ function Footer() {
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
-                                <div className="col-md-5 col-lg-4 col-xl-4  d-none d-md-block d-lg-block d-xlg-block mt-3">
-                                    <ul>
+                                <div className="col-md-6 col-lg-4 col-xl-5 text-start d-none d-md-block d-lg-block d-xlg-block mt-3">
+                                    <ul >
                                         <li className="text-uppercase footerhead">
                                             Help
                                         </li>

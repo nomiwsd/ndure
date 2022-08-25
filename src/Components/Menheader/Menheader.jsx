@@ -11,8 +11,8 @@ import Homepage from '../Homepage';
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import "./Secheader.css"
-function Secheader() {
+import "./Menheader.css"
+function Menheader() {
 
 
   const [myshow, mysetShow] = useState(false);
@@ -130,8 +130,8 @@ function Secheader() {
           </Offcanvas>
         </div>
         <ul class="col-md-3 breadcrumb col-lg-4 m-0 py-2 d-none d-md-block d-lg-block d-inline-flex position-relative">
-          <li className="men active" aria-current="page">MEN</li>
-          <li><a href="#">WOMEN</a></li>
+       <li><Link to='/Menpage' className="men active mx-2" aria-current="page">MEN</Link></li> 
+       <li className='mx-2'><Link to='/Womenpage'>WOMEN</Link></li>
           <li><a href="#">KIDS</a></li>
         </ul>
         <Link className="col-6 col-md-3 col-lg-4" to={<Homepage />}><img src={Logo} alt='wait for internet' title='logo' /> </Link>
@@ -203,11 +203,11 @@ function Secheader() {
         </div>
       </div>
       <hr className='W-100 m-0' />
-      <div className="row justify-content-center d-none d-md-flex d-lg-flex py-3 ">
+      <div className="row justify-content-center d-none d-md-flex d-lg-flex secnavbar py-3 m-0">
         <div className="col-1 navitem ps-0"> <a href='#'>Summer'22</a> </div>
         <div className="col-1 navitem ps-0 dropdown">
 
-          <a className='Navlink ' id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a className='Navlink mx-3' id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Shoes
           </a>
           <ul class="dropdown-menu px-3" aria-labelledby="dropdownMenuButton">
@@ -259,4 +259,4 @@ function Secheader() {
   )
 }
 
-export default Secheader
+export default Menheader

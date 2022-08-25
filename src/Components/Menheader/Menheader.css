@@ -7,7 +7,7 @@ ul.breadcrumb {
     display: inline;
     font-size: 14px;
   }
-  ul.breadcrumb li+li:before {
+  ul.breadcrumb li+li::before {
     padding: 8px;
     color: black;
     content: "|\00a0";
@@ -16,10 +16,10 @@ ul.breadcrumb {
     font-size: 14px;
     text-decoration: none;
   }
-  ul.breadcrumb .men {
-    font-size: 16px;
+  .men {
+    font-size: 20px !important;
     font-weight: 700;
-    color: #ad1b3c;
+    color: #ad1b3c !important;
   }
   ul.breadcrumb li a:hover {
     color: #8a8485;
@@ -103,8 +103,7 @@ ul.breadcrumb {
 }
 
 .offcanvasbtn:hover {
-    background-color: white;
-    color: #ad1b3c;
+    background-color: white;  
     border-radius: 0px;
     border: 1px solid #ad1b3c;
 
@@ -179,4 +178,7 @@ ul.breadcrumb {
   }
   html{
     overflow-x: hidden;
+  }
+  .secnavbar{
+    position: -webkit-sticky;
   }

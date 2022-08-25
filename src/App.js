@@ -1,23 +1,23 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Components/Footer/Footer';
-import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
+import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Homepage from './Components/Homepage';
-import Secheader from './Components/Secheader/Secheader';
-import MenLanding from './Components/Menlandingpage/MenLanding';
-import Mencategories from './Components/Mencategories/Mencategories';
+import Menpage from './Components/Menpage';
+import Womenpage from './Components/Womenpage';
+
+
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Secheader/>
-        <MenLanding/>
-        <Mencategories/>
+      <BrowserRouter>
         <Routes>
         <Route exact path="/" element={<Homepage/>}/>
+        <Route exact path="/Menpage" element={<Menpage/>}/>
+        <Route exact path="/Womenpage" element={<Womenpage/>}/>
         </Routes>
         <Footer/>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

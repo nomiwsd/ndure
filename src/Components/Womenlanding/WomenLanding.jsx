@@ -1,33 +1,52 @@
 import React from 'react'
-import Mctimg1 from '../Assets/Menpage/Sandal.png'
-import Mctimg2 from '../Assets/Menpage/Chappal.png'
-import Mctimg3 from '../Assets/Menpage/Slipons.png'
-import Mctimg4 from '../Assets/Menpage/Formal.png'
-import Mctimg5 from '../Assets/Menpage/Casual.png'
-import Mctimg6 from '../Assets/Menpage/Athleisure.png'
-import Mctimg7 from '../Assets/Menpage/Peshawari.png'
-import Mctimg8 from '../Assets/Menpage/Boots.png'
-import Mctimg9 from '../Assets/Menpage/Tees.jpg'
-import Mctimg10 from '../Assets/Menpage/Athletic.jpg'
-import Mctimg11 from '../Assets/Menpage/Trousers.jpg'
-import Mctimg12 from '../Assets/Menpage/Tracksuit.jpg'
-import Mctimg13 from '../Assets/Menpage/Hoodies.png'
-import Mctimg14 from '../Assets/Menpage/Jackets.jpg'
-import Bannerimg from '../Assets/Menpage/banner.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
-import "swiper/css/free-mode";
 import "swiper/css/pagination";
-
+import "swiper/css/navigation";
+import Img3 from '../Assets/slideimg(8).jpg'
+import Img8 from '../Assets/slideimg(4).jpg'
+import Img1 from '../Assets/Womenpage/Womenshopshoes.jpg'
+import Img2 from '../Assets/Womenpage/Womenshopapparel.jpg'
+import Mctimg1 from '../Assets/Womenpage/Sandals.png'
+import Mctimg2 from '../Assets/Womenpage/Chappals.png'
+import Mctimg3 from '../Assets/Womenpage/Pumps.png'
+import Mctimg4 from '../Assets/Womenpage/Casual.png'
+import Mctimg5 from '../Assets/Womenpage/Athleisure.png'
+import Mctimg6 from '../Assets/Womenpage/Heels.png'
+import Mctimg9 from '../Assets/Womenpage/Sportswear.jpg'
+import Mctimg10 from '../Assets/Womenpage/Yogatights.jpg'
+import Mctimg11 from '../Assets/Womenpage/Trousers.jpg'
+import Mctimg12 from '../Assets/Womenpage/Hoodies.jpg'
+import Mctimg13 from '../Assets/Womenpage/Jackets.jpg'
+import Mctimg14 from '../Assets/Womenpage/Coat.jpg'
+import Mctimg15 from '../Assets/Womenpage/SportsBra.jpg'
+import Bannerimg from '../Assets/Womenpage/womenbanner.jpg'
+import "swiper/css/free-mode";
+import './WomenLanding.css'
 import { FreeMode, Pagination } from "swiper";
-
-import './Mencategories.css'
-
-function Mencategories() {
+function WomenLanding() {
   return (
     <div>
-      <h4 className='text-start mx-3 '>MEN FOOTWEAR</h4>
+         <Swiper className="mySwiper mb-3  pb-md-0 pb-lg-0 position-relative">
+                <div className='row m-0 justify-content-center justify-content-end btnpos'>
+                    <div className="swiperbuttons row col-12 col-lg-5 col-md-8 gap-md-2 mx-0 gap-lg-2 align-items-center justify-content-center p-0">
+                        <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">SHOES</button>
+                        <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">APPAREL</button>
+                        <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">ACCESSORIES</button>
+                    </div>
+                </div>
+
+                <SwiperSlide className="swiperslide5 d-none d-md-block" data-hash="slide3"><img src={Img3} alt="wait for internet" /></SwiperSlide>
+                <SwiperSlide className="swiperslide6 d-block d-md-none d-lg-none d-xlg-none" data-hash="slide1"><img src={Img8} alt="wait for internet" /></SwiperSlide>
+
+            </Swiper>
+
+            <div className="row p-0 m-0 ">
+                <img src={Img1} className="col-12 col-lg-6 col-md-6 my-2" alt="wait for internet" />
+                <img src={Img2} className="col-12 col-lg-6 col-md-6 my-2" alt="wait for internet" />
+            </div>
+
+            <h4 className='text-start mx-3 '>WOMEN FOOTWEAR</h4>
       <Swiper
         spaceBetween={30}
         freeMode={true}
@@ -49,53 +68,33 @@ function Mencategories() {
           </div>
           <div className=" mx-1 col-4 col-md-3 col-lg-2 p-0">
             <img src={Mctimg3} className="p-0" alt="wait for internet" />
-            <p className='fwp  p-0'>Slip Ons</p>
+            <p className='fwp  p-0'>Pumps</p>
           </div>
           <div className=" mx-1 d-none d-md-block col-md-3 col-lg-2">
             <img src={Mctimg4} className=" p-0" alt="wait for internet" />
-            <p className='fwp  p-0'>Formal</p>
+            <p className='fwp  p-0'>Casual</p>
           </div>
           <div className=" mx-1  d-none d-md-none d-lg-block  col-lg-2">
             <img src={Mctimg5} className=" p-0" alt="wait for internet" />
-            <p className='fwp p-0'>Casual</p>
+            <p className='fwp p-0'>Athleisure</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='px-3 ms-4 px-lg-0'>
-          <div className=" mx-1 row col-4 d-md-none d-lg-block col-lg-2">
+          <div className=" mx-1 row col-4 d-md-none d-lg-none col-lg-2">
             <img src={Mctimg4} className=" p-0" alt="wait for internet" />
-            <p className='fwp  p-0'>Formal</p>
-          </div>
-          <div className=" mx-1 row col-4 col-md-3 col-lg-2">
-            <img src={Mctimg5} className=" p-0" alt="wait for internet" />
             <p className='fwp  p-0'>Casual</p>
+          </div>
+          <div className=" mx-1 row col-4 col-md-3 d-lg-none col-lg-2">
+            <img src={Mctimg5} className=" p-0" alt="wait for internet" />
+            <p className='fwp  p-0'>Athleisure</p>
           </div>
           <div className="mx-1 row col-4 col-md-3 col-lg-2">
             <img src={Mctimg6} className=" p-0" alt="wait for internet" />
-            <p className='fwp  p-0'>Athleisure</p>
+            <p className='fwp  p-0'>Heels</p>
           </div>
-          <div className="mx-1 row col-4 col-md-3 d-none d-md-block d-lg-block col-lg-2">
-            <img src={Mctimg7} className=" p-0" alt="wait for internet" />
-            <p className='fwp  p-0'>Peshawari</p>
-          </div>
-          <div className="mx-1 row col-4 col-md-3 d-none d-md-block d-lg-block col-lg-2">
-            <img src={Mctimg8} className=" p-0" alt="wait for internet" />
-            <p className='fwp  p-0'>Boots</p>
-          </div>
+        
         </SwiperSlide>
-        <SwiperSlide className='d-md-none px-3'>
-          <div className="mx-1 row col-4 col-lg-2">
-            <img src={Mctimg6} className=" p-0" alt="wait for internet" />
-            <p className='fwp  p-0'>Athleisure</p>
-          </div>
-          <div className="mx-1 row col-4 d-lg-none col-lg-2">
-            <img src={Mctimg7} className=" p-0" alt="wait for internet" />
-            <p className='fwp  p-0'>Peshawari</p>
-          </div>
-          <div className="mx-1 row col-4 d-lg-none col-lg-2">
-            <img src={Mctimg8} className=" p-0" alt="wait for internet" />
-            <p className='fwp  p-0'>Boots</p>
-          </div>
-        </SwiperSlide>
+       
       </Swiper>
       <div className="row my-4 overflow-hidden">
         <div className="d-inline-flex flex-row  d-none d-md-none d-lg-none d-xl-flex px-5">
@@ -109,47 +108,51 @@ function Mencategories() {
           </div>
           <div className=" mx-1 row col-6 col-lg-2 p-0">
             <img src={Mctimg3} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-10 p-0'>Slip Ons</p>
+            <p className='fwp col-10 p-0'>Pumps</p>
           </div>
           <div className=" mx-1 row col-6  col-lg-2">
             <img src={Mctimg4} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-10 p-0'>Formal</p>
+            <p className='fwp col-10 p-0'>Casual</p>
           </div>
           <div className=" mx-1 row col-6  col-lg-2">
             <img src={Mctimg5} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-10 p-0'>Casual</p>
+            <p className='fwp col-10 p-0'>Athleisure</p>
           </div>
           <div className="mx-1 row col-6 col-lg-2">
             <img src={Mctimg6} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-10 p-0'>Athleisure</p>
+            <p className='fwp col-10 p-0'>Heels</p>
           </div>
         </div>
       </div>
-      <h4 className='text-start mx-3 '>MEN APPAREL</h4>
+      <h4 className='text-start mx-3 '>WOMEN APPAREL</h4>
       <div className="m-0 p-0 d-flex flex-row d-flex d-md-none d-lg-none d-xl-flex oversm ">
         <div className=" p-0 col-6 col-lg-2">
            <img src={Mctimg9} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-12 p-0'>Tees</p>
+            <p className='fwp col-12 p-0'>Sports Wear</p>
         </div>
         <div className=" p-0 col-6 col-lg-2">
            <img src={Mctimg10} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-12 p-0'>Athletics</p>
+            <p className='fwp col-12 p-0'>Yoga Pants</p>
         </div>
         <div className=" p-0 col-6 col-lg-2">
            <img src={Mctimg11} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-12 p-0'>Trouesers</p>
+            <p className='fwp col-12 p-0'>Trousers</p>
         </div>
         <div className="  p-0 col-6 col-lg-2">
            <img src={Mctimg12} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-12 p-0'>Track Suit</p>
-        </div>
-        <div className=" p-0 col-6 col-lg-2">
-           <img src={Mctimg13} className="col-10 p-0" alt="wait for internet" />
             <p className='fwp col-12 p-0'>Hoodies & Sweats</p>
         </div>
         <div className=" p-0 col-6 col-lg-2">
-           <img src={Mctimg14} className="col-10 p-0" alt="wait for internet" />
+           <img src={Mctimg13} className="col-10 p-0" alt="wait for internet" />
             <p className='fwp col-12 p-0'>Jackets</p>
+        </div>
+        <div className=" p-0 col-6 col-lg-2">
+           <img src={Mctimg14} className="col-10 p-0" alt="wait for internet" />
+            <p className='fwp col-12 p-0'>Coats</p>
+        </div>
+        <div className=" p-0 col-6 col-lg-2">
+           <img src={Mctimg15} className="col-10 p-0" alt="wait for internet" />
+            <p className='fwp col-12 p-0'>Sports Bra</p>
         </div>
         <div className="scroll"></div>
       </div>
@@ -212,4 +215,4 @@ function Mencategories() {
   )
 }
 
-export default Mencategories
+export default WomenLanding

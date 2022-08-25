@@ -5,8 +5,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Img3 from '../Assets/slideimg(7).jpg'
 import Img8 from '../Assets/slideimg(3).jpg'
-import Img1 from '../Assets/Shopshoes.jpg'
-import Img2 from '../Assets/Shopapparel.jpg'
+import Img1 from '../Assets/Menpage/Shopshoes.jpg'
+import Img2 from '../Assets/Menpage/Shopapparel.jpg'
 import './MenLanding.css'
 function MenLanding() {
     return (
