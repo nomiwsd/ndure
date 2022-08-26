@@ -37,7 +37,7 @@ function Mencategories() {
         modules={[FreeMode, Pagination]}
         className="mySwiper d-xl-none p-0 m-0"
       >
-        
+
         <SwiperSlide className='px-3 me-1 me-md-0'>
           <div className="col-4 col-md-3 p-0 col-lg-2">
             <img src={Mctimg1} className=" p-0" alt="" />
@@ -128,39 +128,39 @@ function Mencategories() {
       <h4 className='text-start mx-3 '>MEN APPAREL</h4>
       <div className="m-0 p-0 d-flex flex-row d-flex d-md-none d-lg-none d-xl-flex oversm ">
         <div className=" p-0 col-6 col-lg-2">
-           <img src={Mctimg9} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-12 p-0'>Tees</p>
+          <img src={Mctimg9} className="col-10 p-0" alt="wait for internet" />
+          <p className='fwp col-12 p-0'>Tees</p>
         </div>
         <div className=" p-0 col-6 col-lg-2">
-           <img src={Mctimg10} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-12 p-0'>Athletics</p>
+          <img src={Mctimg10} className="col-10 p-0" alt="wait for internet" />
+          <p className='fwp col-12 p-0'>Athletics</p>
         </div>
         <div className=" p-0 col-6 col-lg-2">
-           <img src={Mctimg11} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-12 p-0'>Trouesers</p>
+          <img src={Mctimg11} className="col-10 p-0" alt="wait for internet" />
+          <p className='fwp col-12 p-0'>Trouesers</p>
         </div>
         <div className="  p-0 col-6 col-lg-2">
-           <img src={Mctimg12} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-12 p-0'>Track Suit</p>
+          <img src={Mctimg12} className="col-10 p-0" alt="wait for internet" />
+          <p className='fwp col-12 p-0'>Track Suit</p>
         </div>
         <div className=" p-0 col-6 col-lg-2">
-           <img src={Mctimg13} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-12 p-0'>Hoodies & Sweats</p>
+          <img src={Mctimg13} className="col-10 p-0" alt="wait for internet" />
+          <p className='fwp col-12 p-0'>Hoodies & Sweats</p>
         </div>
         <div className=" p-0 col-6 col-lg-2">
-           <img src={Mctimg14} className="col-10 p-0" alt="wait for internet" />
-            <p className='fwp col-12 p-0'>Jackets</p>
+          <img src={Mctimg14} className="col-10 p-0" alt="wait for internet" />
+          <p className='fwp col-12 p-0'>Jackets</p>
         </div>
         <div className="scroll"></div>
       </div>
       <Swiper
         spaceBetween={30}
         freeMode={true}
-       
+
         modules={[FreeMode]}
         className="mySwiper d-none d-md-block d-lg-block d-xl-none p-0 m-0"
       >
-        
+
         <SwiperSlide className='px-4 me-1 me-md-0 px-lg-0'>
           <div className="mx-1 mx-lg-3 col-md-3 p-0 col-lg-2 ">
             <img src={Mctimg9} className=" p-0" alt="" />
@@ -184,11 +184,11 @@ function Mencategories() {
           </div>
         </SwiperSlide>
         <SwiperSlide className='ms-md-4 px-md-4 me-1 px-4 px-lg-0'>
-        <div className=" mx-1 mx-lg-3  d-md-none d-lg-block col-lg-2 p-0">
+          <div className=" mx-1 mx-lg-3  d-md-none d-lg-block col-lg-2 p-0">
             <img src={Mctimg10} className=" p-0" alt="wait for internet" />
             <p className='fwp p-0'>Athletics</p>
           </div>
-        <div className=" mx-1 mx-lg-3  col-md-3 col-lg-2 p-0">
+          <div className=" mx-1 mx-lg-3  col-md-3 col-lg-2 p-0">
             <img src={Mctimg11} className="p-0" alt="wait for internet" />
             <p className='fwp  p-0'>Trousers</p>
           </div>
@@ -206,8 +206,8 @@ function Mencategories() {
           </div>
         </SwiperSlide>
       </Swiper>
- 
-        <img src={Bannerimg} className="bannerimg" alt="wait for internet" />
+
+      <img src={Bannerimg} className="bannerimg" alt="wait for internet" />
     </div>
   )
 }

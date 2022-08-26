@@ -1,0 +1,11 @@
+.accounthead {
+    font-size: 36px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+}
+.crainput {
+    border-radius: 0px;
+}
+.form-control:focus{
+    outline: none !important;
+}

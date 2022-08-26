@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 .swiperbtn:focus {
   outline: none !important;
   background-color: #fff;
   color: #ad1b3c;
 }
+
 .swiperslide img {
   width: 100%;
   height: 100% !important;
@@ -115,11 +117,12 @@
     font-weight: 700 !important;
     font-family: 'Roboto Condensed', sans-serif;
   }
+
   .swiperbtn:hover {
     color: white;
     background-color: black;
   }
-  
+
   .btnpos {
     transform: translateY(-40px);
     z-index: 9;
@@ -129,10 +132,10 @@
 
   .swiper-pagination {
     position: absolute;
-    top:220px;
+    top: 220px;
     text-align: center;
     transition: .3s opacity;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     z-index: 1000;
-}
+  }
 }

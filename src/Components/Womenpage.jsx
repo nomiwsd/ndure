@@ -6,7 +6,6 @@ function Womenpage() {
     <div>
          <Womenheader/>
          <WomenLanding/>
-        {/* <Womencategories/>  */}
     </div>
   )
 }

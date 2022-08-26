@@ -17,10 +17,10 @@ function Footer() {
                         <div className="col-lg-5 col-md-8 col-8 subscribesect row m-0 p-0 justify-content-center">
                             <AiOutlineMail className='emailic col-lg-2 col-xlg-1 col-3 col-md-1 ' />
                             <input className="inputemail py-3 col-md-10 col-lg-9 col-7" type="email" placeholder="ENTER EMAIL ADDRESS" />
-                            </div>
+                        </div>
 
                         <Button variant="" size="sm" className="col-lg-1 col-4 col-md-2 mx-0 btncl py-3">SUBSCRIBE</Button>{' '}
-                        </div>
+                    </div>
                 </div>
 
                 <footer className="text-center text-lg-start ">
@@ -29,29 +29,29 @@ function Footer() {
                             <div className="row">
                                 <hr className="w-100 clearfix d-md-none" />
                                 <Accordion className="accordian col-12 d-block d-md-none d-lg-none d-xlg-none" defaultActiveKey="0">
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header ><h5 className="accordianheader">About Ndure</h5></Accordion.Header>
-                        <Accordion.Body className="accordianbody">
-                            <ul className='List'>
-                                <li className='footerli my-2'>
-                                    <a href="#" className="footertxt text-dark ">What is Ndure?</a>
-                                </li>
-                                <li className='footerli my-2'>
-                                    <a href="#" className="footertxt text-dark">Corporate News</a>
-                                </li>
-                                <li className='footerli my-2'>
-                                    <a href="#" className="footertxt text-dark">Customer Reviews</a>
-                                </li>
-                                <li className='footerli my-2'>
-                                    <a href="#" className="footertxt text-dark">Find a Store</a>
-                                </li>
-                                <li className='footerli my-2'>
-                                    <a href="#" className="footertxt text-dark">Careers</a>
-                                </li>
-                            </ul>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                </Accordion>
+                                    <Accordion.Item eventKey="0">
+                                        <Accordion.Header ><h5 className="accordianheader">About Ndure</h5></Accordion.Header>
+                                        <Accordion.Body className="accordianbody">
+                                            <ul className='List'>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark ">What is Ndure?</a>
+                                                </li>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark">Corporate News</a>
+                                                </li>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark">Customer Reviews</a>
+                                                </li>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark">Find a Store</a>
+                                                </li>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark">Careers</a>
+                                                </li>
+                                            </ul>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                </Accordion>
                                 <div className="col-md-6 col-lg-4  col-xl-4 d-none text-start d-md-block d-lg-block d-xlg-block mt-3">
                                     <ul className='p-0'>
                                         <li className="text-uppercase footerhead">About Ndure</li>
@@ -62,7 +62,7 @@ function Footer() {
                                             <a href="#" className="footertxt text-dark">Corporate News</a>
                                         </li>
                                         <li className='footerli my-2'>
-                                       <a href="#" className="footertxt text-dark">Customer Reviews</a>
+                                            <a href="#" className="footertxt text-dark">Customer Reviews</a>
                                         </li>
                                         <li className='footerli my-2'>
                                             <a href="#" className="footertxt text-dark">Find a Store</a>
@@ -76,32 +76,32 @@ function Footer() {
 
                                 <hr className="w-100 clearfix d-md-none" />
                                 <Accordion className="accordian col-12 d-block d-md-none px-xl-5 d-lg-none d-xlg-none" defaultActiveKey="0">
-                                <Accordion.Item eventKey="1">
-                        <Accordion.Header><h5 className="accordianheader">Help</h5></Accordion.Header>
-                        <Accordion.Body>
-                        <ul className='List'>
-                                        <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Order Status</a>
-                                        </li>
-                                        <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Shipping and Delivery</a>
-                                        </li>
-                                        <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Return and Exchange Policy</a>
-                                        </li>
-                                        <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">FAQS</a>
-                                        </li>
-                                        <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Privacy Policy</a>
-                                        </li>
-                                        <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Terms & Conditions</a>
-                                        </li>
-                                    </ul>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                </Accordion>
+                                    <Accordion.Item eventKey="1">
+                                        <Accordion.Header><h5 className="accordianheader">Help</h5></Accordion.Header>
+                                        <Accordion.Body>
+                                            <ul className='List'>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark">Order Status</a>
+                                                </li>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark">Shipping and Delivery</a>
+                                                </li>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark">Return and Exchange Policy</a>
+                                                </li>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark">FAQS</a>
+                                                </li>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark">Privacy Policy</a>
+                                                </li>
+                                                <li className='footerli my-2'>
+                                                    <a href="#" className="footertxt text-dark">Terms & Conditions</a>
+                                                </li>
+                                            </ul>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                </Accordion>
                                 <div className="col-md-6 col-lg-4 col-xl-5 text-start d-none d-md-block d-lg-block d-xlg-block mt-3">
                                     <ul >
                                         <li className="text-uppercase footerhead">

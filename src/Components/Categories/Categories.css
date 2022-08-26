@@ -1,73 +1,84 @@
 .categoryhead {
-    font-size: 30px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 900;
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 900;
 }
+
 .categorybtn {
-    background-color: #ad1b3c;
-    color: white;
+  background-color: #ad1b3c;
+  color: white;
+  border: #ad1b3c;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 5px;
+
+}
+
+.cimg {
+  overflow: hidden;
+  position: relative;
+}
+
+.cimg img {
+  background-color: transparent;
+  overflow: hidden;
+  height: 90%;
+  transition: transform .5s ease;
+}
+
+.cimg:hover img {
+  opacity: 0.75;
+  height: 83%;
+  transform: scale(1.15);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0;
+  width: 100%;
+  height: 90%;
+
+}
+
+.cimg:hover .overlay {
+  opacity: 0.50;
+}
+
+@media screen and (max-width:425px) {
+  .categorybtn {
+    background-color: white;
+    color: #ad1b3c;
     border: #ad1b3c;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 5px;
-    
-}
-.cimg {
-    overflow: hidden; 
-    position: relative;
-  }
-  .cimg img {
-    background-color: transparent;
-    overflow: hidden;
-    height: 90%;
-    transition: transform .5s ease;
-  }
-  .cimg:hover img {
-    opacity: 0.75;
-    height: 83%;
-    transform: scale(1.15);
-  }
-  .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: black;
-    opacity: 0;
-    width:100%;
-    height: 90%;
 
   }
-  .cimg:hover .overlay{
-    opacity: 0.50;
+
+}
+
+.categoryds {
+  font-size: 23px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+  .overfs {
+    overflow-x: auto;
   }
-@media screen and (max-width:425px) {
-    .categorybtn {
-        background-color: white;
-        color:#ad1b3c;
-        border: #ad1b3c;
-        font-size: 20px;
-        font-family: 'Roboto Condensed', sans-serif;
-        border-radius: 5px;
-        
-    }
-    
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
 }
-.categoryds{
-    font-size: 23px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 700;
-}
-@media screen and (max-width:768px){
-    .overfs{
-        overflow-x: auto ;
-    }
-    ::-webkit-scrollbar{
-        width: 0;
-     }
-}
-.sale{
-    position: relative;
-    
+
+.sale {
+  position: relative;
+
 }

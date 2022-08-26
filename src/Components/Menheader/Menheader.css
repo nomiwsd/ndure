@@ -1,184 +1,200 @@
-
 ul.breadcrumb {
-    padding: 5;
-    list-style: none;
-  }
-  ul.breadcrumb li {
-    display: inline;
-    font-size: 14px;
-  }
-  ul.breadcrumb li+li::before {
-    padding: 8px;
-    color: black;
-    content: "|\00a0";
-  }
-  ul.breadcrumb li a {
-    font-size: 14px;
-    text-decoration: none;
-  }
-  .men {
-    font-size: 20px !important;
-    font-weight: 700;
-    color: #ad1b3c !important;
-  }
-  ul.breadcrumb li a:hover {
-    color: #8a8485;
-  }
-  .cartlink:hover {
-    color: black;
-  }
-  .toggleicon{
-    font-size: 24px;
-  }
-  .canvasicons{
-    font-size: 12px;
-  }
+  padding: 5;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+
+ul.breadcrumb li+li::before {
+  padding: 8px;
+  color: black;
+  content: "|\00a0";
+}
+
+ul.breadcrumb li a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.men {
+  font-size: 20px !important;
+  font-weight: 700;
+  color: #ad1b3c !important;
+}
+
+ul.breadcrumb li a:hover {
+  color: #8a8485;
+}
+
+.cartlink:hover {
+  color: black;
+}
+
+.toggleicon {
+  font-size: 24px;
+}
+
+.canvasicons {
+  font-size: 12px;
+}
+
 .user {
-    border: 0px;
-    background-color: #fff;
-    color: black;
+  border: 0px;
+  background-color: #fff;
+  color: black;
 }
 
 .user:hover {
-    background-color: #fff;
-    color: black;
+  background-color: #fff;
+  color: black;
 }
 
 .user:active {
-    background-color: #fff;
-    color: black;
+  background-color: #fff;
+  color: black;
 }
 
 .forgettext {
-    position: relative;
-    margin-top: 0.25rem;
-    font-size: .875em;
-    color: #ad1b3c !important;
-    text-align: center !important;
+  position: relative;
+  margin-top: 0.25rem;
+  font-size: .875em;
+  color: #ad1b3c !important;
+  text-align: center !important;
 }
 
 
 .forgettext:hover {
-    color: #ad1b3c !important;
+  color: #ad1b3c !important;
 }
 
 .forgettext:after {
-    content: '';
-    justify-content: center !important;
-    width: 40%;
-    position: absolute;
-    transform: scaleX(0);
-    height: 1px;
-    bottom: 0;
-    left: 100px;
-    background-color: #ad1b3c;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+  content: '';
+  justify-content: center !important;
+  width: 40%;
+  position: absolute;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 100px;
+  background-color: #ad1b3c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
 .forgettext:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .carttext {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 .offcanvasbtn1,
 .offcanvasbtn1:hover {
-    background-color: white;
-    color: #ad1b3c;
-    border-radius: 0px;
-    border: 1px solid #ad1b3c;
+  background-color: white;
+  color: #ad1b3c;
+  border-radius: 0px;
+  border: 1px solid #ad1b3c;
 }
 
 .offcanvasbtn {
-    background-color: #ad1b3c;
-    color: white;
-    border-radius: 0px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 1px solid #ad1b3c;
+  background-color: #ad1b3c;
+  color: white;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ad1b3c;
 }
 
 .offcanvasbtn:hover {
-    background-color: white;  
-    border-radius: 0px;
-    border: 1px solid #ad1b3c;
+  background-color: white;
+  border-radius: 0px;
+  border: 1px solid #ad1b3c;
 
 }
 
 .offcanvasbtn2 {
-    background-color: white;
-    color: #ad1b3c;
-    border-radius: 0px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 1px solid #ad1b3c;
+  background-color: white;
+  color: #ad1b3c;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ad1b3c;
 }
 
 .offcanvasbtn2:hover {
-    background-color: #ad1b3c;
-    ;
-    color: white;
-    border-radius: 0px;
-    border: 1px solid #ad1b3c;
+  background-color: #ad1b3c;
+  ;
+  color: white;
+  border-radius: 0px;
+  border: 1px solid #ad1b3c;
 
 }
-.Navlink ,.Navlink:hover{
-    position: relative;
-}
-.hrline{
-    width: 80%;
-}
-.navitem a{
-    color:#444444;
-    position: relative;
-    font-size: 14px;
-}
-.navitem a:hover{
-    color:rgb(145, 145, 145);
-    font-size: 14px;
+
+.Navlink,
+.Navlink:hover {
+  position: relative;
 }
 
-  
-  .navitem a:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color:#444444;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .navitem a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  
-.dropdown-menu{
-    position: absolute;
-    left: 35px;
-    top:25px;
-    width: 220%;
-    border-radius:3px;
+.hrline {
+  width: 80%;
 }
+
+.navitem a {
+  color: #444444;
+  position: relative;
+  font-size: 14px;
+}
+
+.navitem a:hover {
+  color: rgb(145, 145, 145);
+  font-size: 14px;
+}
+
+
+.navitem a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #444444;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navitem a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 35px;
+  top: 25px;
+  width: 220%;
+  border-radius: 3px;
+}
+
 .dropdown:hover>.dropdown-menu {
-    display: block;
-  }
-  
-  .dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-      pointer-events: none;
-  }
-  html{
-    overflow-x: hidden;
-  }
-  .secnavbar{
-    position: -webkit-sticky;
-  }
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.secnavbar {
+  position: -webkit-sticky;
+}

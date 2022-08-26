@@ -1,0 +1,17 @@
+.menpagehead{
+    font-size: 50px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+}
+.picture2 {
+    display: none;
+}
+.thumbnail:hover .picture1 {
+    display: none;
+}
+.thumbnail:hover .picture2 {
+    display: block;
+}
+.shoespagetxt{
+    font-size: 14px;
+}

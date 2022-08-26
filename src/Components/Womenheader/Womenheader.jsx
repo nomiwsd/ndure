@@ -1,7 +1,7 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form'
 import { BsSearch } from 'react-icons/bs'
-import { FaUserAlt,FaLessThan,FaGreaterThan } from 'react-icons/fa'
+import { FaUserAlt, FaLessThan, FaGreaterThan } from 'react-icons/fa'
 import { FiHeart } from 'react-icons/fi'
 import { MdLegendToggle } from 'react-icons/md'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
@@ -12,7 +12,7 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 function Womenheader() {
-    
+
 
   const [myshow, mysetShow] = useState(false);
 
@@ -35,9 +35,9 @@ function Womenheader() {
   const handleShow3 = () => setShow3(true);
 
 
-    return (
+  return (
     <div>
-         <div className="row pt-3 headerd mb-3 m-0 mx-lg-5">
+      <div className="row pt-3 headerd mb-3 m-0 mx-lg-5">
         <div className='col-2 d-block d-md-none'>
           <Button variant="toggle" className="d-lg-none p-0 border-0" onClick={handleShow2}>
             <MdLegendToggle className='toggleicon' />
@@ -57,31 +57,28 @@ function Womenheader() {
                 <hr className='w-100  m-0 py-0' />
                 <div className="col-12 ps-0 py-2 m-0 row dropdown">
                   <a className='Navlink col-11 ps-0 d-flex-inline' id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={handleShow3}>
-                    Shoes 
+                    Shoes
                   </a>
-                  <FaGreaterThan className='col-1 p-0 d-flex justify-content-end my-1 canvasicons'/>
+                  <FaGreaterThan className='col-1 p-0 d-flex justify-content-end my-1 canvasicons' />
                   <Offcanvas show={show3} onHide={handleClose3}>
                     <Offcanvas.Header closeButton>
-                    <FaLessThan className='my-1 canvasicons'/>
+                      <FaLessThan className='my-1 canvasicons' />
                     </Offcanvas.Header>
                     <Offcanvas.Body>
 
                       <ul class=" px-3" aria-labelledby="dropdownMenuButton">
-                        <li class="  py-0 mb-2 m-0 " href="#">Casual Shoes / Sneakers</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Athleisure / Sports Shoes</li>
-                        <hr className='m-0 py-0' />
-                        <li class="  py-0 my-2 m-0" href="#">Loafers / Slip-Ons</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Formal Shoes</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Boots</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Chappals</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Sandals</li>
-                        <hr className='m-0 py-0' />
                         <li class=" py-0 my-2 m-0" href="#">Peshawari Chappal</li>
+                        <li class="py-0 mb-2 m-0 " href="#">Chapals / Flats</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0" href="#">Casual Shoes/ Sneakers</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0" href="#">Athleisure / Sports Shoes</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0" href="#">Pumps</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0" href="#">Heels</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0" href="#">Sandals</li>
                       </ul>
                     </Offcanvas.Body>
                   </Offcanvas>
@@ -89,31 +86,33 @@ function Womenheader() {
                 <hr className='w-100 m-0 py-0' />
                 <div className="col-12  ps-0 py-2 m-0 row dropdown">
                   <a className='Navlink col-11 ps-0 d-flex-inline' id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={handleShow3}>
-                    Clothes 
+                    Clothes
                   </a>
-                  <FaGreaterThan className='col-1 p-0 d-flex justify-content-end my-1 canvasicons'/>
+                  <FaGreaterThan className='col-1 p-0 d-flex justify-content-end my-1 canvasicons' />
                   <Offcanvas show={show3} onHide={handleClose3}>
                     <Offcanvas.Header closeButton>
-                    <FaLessThan className='my-1 canvasicons'/>
+                      <FaLessThan className='my-1 canvasicons' />
                     </Offcanvas.Header>
                     <Offcanvas.Body>
 
                       <ul class=" px-3" aria-labelledby="dropdownMenuButton">
-                        <li class="  py-0 mb-2 m-0 " href="#">Atheletic Wear</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Tees</li>
-                        <hr className='m-0 py-0' />
-                        <li class="  py-0 my-2 m-0" href="#">Hoodies & Sweats</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Jackets</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Trousers</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Shorts</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Track Suits</li>
-                        <hr className='m-0 py-0' />
-                        <li class=" py-0 my-2 m-0" href="#">Accessories</li>
+                        <li class="py-0 my-2 m-0 " href="#">Hoodies & Sweats</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0 " href="#">Jackets</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 mb-2 m-0 " href="#">Trousers</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0 " href="#">Track Suits</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0 " href="#">Sports Bra</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0 " href="#">Sports Wear</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0 " href="#">Tees</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0 " href="#">Yoga Pants</li>
+                        <hr className=' m-0 py-0' />
+                        <li class="py-0 my-2 m-0 " href="#">Accessories</li>
                       </ul>
                     </Offcanvas.Body>
                   </Offcanvas>
@@ -128,11 +127,11 @@ function Womenheader() {
           </Offcanvas>
         </div>
         <ul class="col-md-3 breadcrumb col-lg-4 m-0 py-2 d-none d-md-block d-lg-block d-inline-flex position-relative">
-        <li><Link to='/Menpage' >MEN</Link></li> 
-       <li ><Link to='/Womenpage' className="men active mx-2" aria-current="page">WOMEN</Link></li>
-          <li><a href="#">KIDS</a></li>
-          </ul>
-        <Link className="col-6 col-md-3 col-lg-4" to={<Homepage />}><img src={Logo} alt='wait for internet' title='logo' /> </Link>
+          <li><Link to='/Menpage' >MEN</Link></li>
+          <li ><Link to='/Womenpage' className="men active mx-2" aria-current="page">WOMEN</Link></li>
+          <li><Link to='/Kidspage'>KIDS</Link></li>
+        </ul>
+        <Link className="col-6 col-md-3 col-lg-4" to='../'><img src={Logo} alt='wait for internet' title='logo' /></Link>
 
         <div className="col-4 col-md-6 col-lg-4 d-inline-flex justify-content-end p-0 ">
           <div className="searchdiv">
@@ -171,9 +170,9 @@ function Womenheader() {
                     Forget Your Password?
                   </p>
                 </Form.Group>
-                <Button className='offcanvasbtn2 w-100' >
+                <Link to='../Createaccountwomen' className='offcanvasbtn2 btn w-100' >
                   Create Account
-                </Button>
+                </Link>
               </Form>
             </Offcanvas.Body>
           </Offcanvas>
@@ -209,21 +208,19 @@ function Womenheader() {
             Shoes
           </a>
           <ul class="dropdown-menu px-3" aria-labelledby="dropdownMenuButton">
-            <li class="dropdown-item  py-0 mb-2 m-0 " href="#">Casual Shoes / Sneakers</li>
+            <li class="dropdown-item  py-0 mb-2 m-0 " href="#">Chapals / Flats</li>
             <hr className='hrline mx-3 m-0 py-0' />
-            <li class="dropdown-item py-0 my-2 m-0" href="#">Athleisure / Sports Shoes</li>
+            <li class="dropdown-item py-0 my-2 m-0" href="#">Casual Shoes/ Sneakers</li>
             <hr className='hrline mx-3 m-0 py-0' />
-            <li class="dropdown-item  py-0 my-2 m-0" href="#">Loafers / Slip-Ons</li>
+            <li class="dropdown-item  py-0 my-2 m-0" href="#">Athleisure / Sports Shoes</li>
             <hr className='hrline mx-3 m-0 py-0' />
-            <li class="dropdown-item py-0 my-2 m-0" href="#">Formal Shoes</li>
+            <li class="dropdown-item py-0 my-2 m-0" href="#">Pumps</li>
             <hr className='hrline mx-3 m-0 py-0' />
-            <li class="dropdown-item py-0 my-2 m-0" href="#">Boots</li>
-            <hr className='hrline mx-3 m-0 py-0' />
-            <li class="dropdown-item py-0 my-2 m-0" href="#">Chappals</li>
+            <li class="dropdown-item py-0 my-2 m-0" href="#">Heels</li>
             <hr className='hrline mx-3 m-0 py-0' />
             <li class="dropdown-item py-0 my-2 m-0" href="#">Sandals</li>
-            <hr className='hrline mx-3 m-0 py-0' />
-            <li class="dropdown-item py-0 my-2 m-0" href="#">Peshawari Chappal</li>
+
+
           </ul>
 
 
@@ -233,19 +230,21 @@ function Womenheader() {
             Clothing
           </a>
           <ul class="dropdown-menu px-2" aria-labelledby="dropdownMenuButton">
-            <li class="dropdown-item  py-0 mb-2 m-0 " href="#">Athletic Wear</li>
-            <hr className='hrline mx-3 m-0 py-0' />
-            <li class="dropdown-item  py-0 my-2 m-0 " href="#">Tees</li>
-            <hr className='hrline mx-3 m-0 py-0' />
             <li class="dropdown-item  py-0 my-2 m-0 " href="#">Hoodies & Sweats</li>
             <hr className='hrline mx-3 m-0 py-0' />
             <li class="dropdown-item  py-0 my-2 m-0 " href="#">Jackets</li>
             <hr className='hrline mx-3 m-0 py-0' />
-            <li class="dropdown-item  py-0 my-2 m-0 " href="#">Trousers</li>
-            <hr className='hrline mx-3 m-0 py-0' />
-            <li class="dropdown-item  py-0 my-2 m-0 " href="#">Shorts</li>
+            <li class="dropdown-item  py-0 mb-2 m-0 " href="#">Trousers</li>
             <hr className='hrline mx-3 m-0 py-0' />
             <li class="dropdown-item  py-0 my-2 m-0 " href="#">Track Suits</li>
+            <hr className='hrline mx-3 m-0 py-0' />
+            <li class="dropdown-item  py-0 my-2 m-0 " href="#">Sports Bra</li>
+            <hr className='hrline mx-3 m-0 py-0' />
+            <li class="dropdown-item  py-0 my-2 m-0 " href="#">Sports Wear</li>
+            <hr className='hrline mx-3 m-0 py-0' />
+            <li class="dropdown-item  py-0 my-2 m-0 " href="#">Tees</li>
+            <hr className='hrline mx-3 m-0 py-0' />
+            <li class="dropdown-item  py-0 my-2 m-0 " href="#">Yoga Pants</li>
             <hr className='hrline mx-3 m-0 py-0' />
             <li class="dropdown-item  py-0 my-2 m-0 " href="#">Accessories</li>
           </ul>
