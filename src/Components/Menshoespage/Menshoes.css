@@ -1,17 +1,39 @@
-.menpagehead{
-    font-size: 50px;
-    font-family: 'Roboto',sans-serif;
-    font-weight: 900;
+.menpagehead {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 .picture2 {
-    display: none;
+  display: none;
 }
 .thumbnail:hover .picture1 {
-    display: none;
+  display: none;
 }
 .thumbnail:hover .picture2 {
-    display: block;
+  display: block;
 }
-.shoespagetxt{
-    font-size: 14px;
+.shoespagetxt {
+  font-size: 14px;
+}
+.refinetxt {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.categorybar {
+  border: 1px solid rgb(209, 206, 206);
+  padding: 0px;
+}
+.Maindropdown{
+    position: relative;
+}
+#menudropdown{
+ height: 600% !important;
+ position: absolute;
+left: -95px;
+top:30px;
+}
+.sizebtn{
+    border: 1px solid rgb(180, 174, 174);
+    border-radius: 0;
 }
