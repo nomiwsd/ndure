@@ -25,20 +25,29 @@ function Categories() {
         </div>
         <div className="col-lg-8 col-md-9 col-12">
           <div className=" justify-content-start overfs m-0 gap-3  d-flex flex-row p-0">
-            <div className="col-9 col-md-5 col-lg-4 cimg">
-              <img src={Men1} className="col-12  col-md-12 p-0 " alt="" />
-              <div className="overlay"></div>
+            <div className="col-9 col-md-5 col-lg-4 cimg p-0">
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Men1} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>SHOES</p>
             </div>
             <div className="col-9 col-md-5 col-lg-4 cimg ">
-              <img src={Men2} alt="" className="col-12 col-md-12 p-0" />
-              <div className="overlay"></div>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Men2} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>APPAREL</p>
             </div>
             <div className="col-9 col-md-5 col-lg-4 cimg">
-              <img src={Men3} alt="" className="col-12 col-md-12  p-0" />
-              <div className="overlay"></div>
-              <p className='categoryds'>ACCESSORIES</p>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Men3} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
+              <p className='categoryds'>Accessories</p>
             </div>
           </div>
         </div>
@@ -52,18 +61,27 @@ function Categories() {
         <div className="col-lg-8 col-md-9 col-12">
           <div className=" justify-content-start overfs m-0 gap-3  d-flex flex-row p-0">
             <div className="col-9 col-md-5 col-lg-4 cimg">
-              <img src={Women1} className="col-12  col-md-12 p-0 " alt="" />
-              <div className="overlay"></div>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Women1} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>SHOES</p>
             </div>
             <div className="col-9 col-md-5 col-lg-4 cimg ">
-              <img src={Women2} alt="" className="col-12 col-md-12 p-0" />
-              <div className="overlay"></div>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Women2} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>APPAREL</p>
             </div>
             <div className="col-9 col-md-5 col-lg-4 cimg">
-              <img src={Women3} alt="" className="col-12 col-md-12  p-0" />
-              <div className="overlay"></div>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Women3} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>ACCESSORIES</p>
             </div>
           </div>
@@ -79,18 +97,27 @@ function Categories() {
         <div className="col-lg-8 col-md-9 col-12">
           <div className=" justify-content-start overfs m-0 gap-3  d-flex flex-row p-0">
             <div className="col-9 col-md-5 col-lg-4 cimg">
-              <img src={Kids1} className="col-12  col-md-12 p-0 " alt="" />
-              <div className="overlay"></div>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Kids1} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>SHOES</p>
             </div>
             <div className="col-9 col-md-5 col-lg-4 cimg ">
-              <img src={Kids2} alt="" className="col-12 col-md-12 p-0" />
-              <div className="overlay"></div>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Kids2} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>BOYS</p>
             </div>
             <div className="col-9 col-md-5 col-lg-4 cimg">
-              <img src={Kids3} alt="" className="col-12 col-md-12  p-0" />
-              <div className="overlay"></div>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Kids3} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>GIRLS</p>
             </div>
           </div>
@@ -105,18 +132,27 @@ function Categories() {
         <div className="col-lg-8 col-md-9 col-12">
           <div className=" justify-content-start overfs m-0 gap-3  d-flex flex-row p-0">
             <div className="col-9 col-md-5 col-lg-4 cimg">
-              <img src={Sale1} className="col-12  col-md-12 p-0 " alt="" />
-              <div className="overlay"></div>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Sale1} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>MEN</p>
             </div>
             <div className="col-9 col-md-5 col-lg-4 cimg ">
-              <img src={Sale2} alt="" className="col-12 col-md-12 p-0" />
-              <div className="overlay"></div>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Sale2} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>WOMEN</p>
             </div>
             <div className="col-9 col-md-5 col-lg-4 cimg">
-              <img src={Sale3} alt="" className="col-12 col-md-12  p-0" />
-              <div className="overlay"></div>
+              <div className="card p-0 rounded-0" >
+                <figure class="hover-img m-0">
+                  <img src={Sale3} className="col-12 p-0" alt="wait for internet" />
+                </figure>
+              </div>
               <p className='categoryds'>KIDS</p>
             </div>
           </div>

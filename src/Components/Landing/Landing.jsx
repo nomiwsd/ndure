@@ -32,9 +32,9 @@ function Landing() {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        navigation={true} 
         modules={[Autoplay, Navigation]}
-        className="mySwiper mb-5  pb-5 pb-md-0 pb-lg-0 position-relative"
+        className="mySwiper mainswiper mb-5 pb-md-0 pb-lg-0 position-relative"
       >
         <div className="row m-0 justify-content-center justify-content-end btnpos">
           <div className="swiperbuttons row col-12 col-lg-5 col-md-8 gap-md-2 mx-0 gap-lg-2 align-items-center justify-content-center p-0">

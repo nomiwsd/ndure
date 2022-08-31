@@ -23,6 +23,12 @@
   font-size: 16px;
 
 }
+.listship{
+  list-style-type:disc;
+}
+.pbgcolor{
+  background-color: #fafafa;
+}
 
 .btncl {
   background-color: rgb(248, 248, 248);

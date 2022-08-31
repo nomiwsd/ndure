@@ -45,9 +45,9 @@ function Kidsheader() {
                     <Offcanvas show={show2} onHide={handleClose2} responsive="lg">
                         <Offcanvas.Header className="" closeButton>
                             <div class="breadcrumb row mx-3 mt-2">
-                                <button className="col-3 btn btn-danger mx-1">MEN</button>
-                                <button className="col-4 btn btn-danger  mx-1">WOMEN</button>
-                                <button className="col-3 btn btn-danger mx-1">KIDS</button>
+                                <Link to="/Menpage" className="col-3 btn btn-danger mx-1">MEN</Link>
+                                <Link to="/Womenpage" className="col-4 btn btn-danger  mx-1">WOMEN</Link>
+                                <Link to="/Kidspage " className="col-3 btn btn-danger mx-1">KIDS</Link>
                             </div>
                         </Offcanvas.Header>
                         <Offcanvas.Body>

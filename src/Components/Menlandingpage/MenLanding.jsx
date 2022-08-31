@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import {Link} from 'react-router-dom'
 import Img3 from '../Assets/slideimg(7).jpg'
 import Img8 from '../Assets/slideimg(3).jpg'
 import Img1 from '../Assets/Menpage/Shopshoes.jpg'
@@ -14,7 +15,7 @@ function MenLanding() {
             <Swiper className="mySwiper mb-3  pb-md-0 pb-lg-0 position-relative">
                 <div className='row m-0 justify-content-center justify-content-end btnpos'>
                     <div className="swiperbuttons row col-12 col-lg-5 col-md-8 gap-md-2 mx-0 gap-lg-2 align-items-center justify-content-center p-0">
-                        <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">SHOES</button>
+                    <Link to='/Menshoes' className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">SHOES</Link>
                         <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">APPAREL</button>
                         <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">ACCESSORIES</button>
                     </div>

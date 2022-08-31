@@ -5,6 +5,7 @@ import { ImYoutube2 } from 'react-icons/im'
 import { AiOutlineMail } from 'react-icons/ai'
 import { Button } from 'react-bootstrap'
 import Accordion from 'react-bootstrap/Accordion';
+import {Link} from 'react-router-dom'
 import './Footer.css'
 
 function Footer() {
@@ -34,10 +35,10 @@ function Footer() {
                                         <Accordion.Body className="accordianbody">
                                             <ul className='List'>
                                                 <li className='footerli my-2'>
-                                                    <a href="#" className="footertxt text-dark ">What is Ndure?</a>
+                                                    <Link to="/Aboutndure" className="footertxt text-dark ">What is Ndure?</Link>
                                                 </li>
                                                 <li className='footerli my-2'>
-                                                    <a href="#" className="footertxt text-dark">Corporate News</a>
+                                                    <a href="http://www.sscbrands.com/" className="footertxt text-dark">Corporate News</a>
                                                 </li>
                                                 <li className='footerli my-2'>
                                                     <a href="#" className="footertxt text-dark">Customer Reviews</a>
@@ -46,7 +47,7 @@ function Footer() {
                                                     <a href="#" className="footertxt text-dark">Find a Store</a>
                                                 </li>
                                                 <li className='footerli my-2'>
-                                                    <a href="#" className="footertxt text-dark">Careers</a>
+                                                    <Link to="/Career" className="footertxt text-dark">Careers</Link>
                                                 </li>
                                             </ul>
                                         </Accordion.Body>
@@ -56,10 +57,10 @@ function Footer() {
                                     <ul className='p-0'>
                                         <li className="text-uppercase footerhead">About Ndure</li>
                                         <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark ">What is Ndure?</a>
+                                            <Link to="/Aboutndure"  className="footertxt text-dark ">What is Ndure?</Link>
                                         </li>
                                         <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Corporate News</a>
+                                            <a href="http://www.sscbrands.com/" className="footertxt text-dark">Corporate News</a>
                                         </li>
                                         <li className='footerli my-2'>
                                             <a href="#" className="footertxt text-dark">Customer Reviews</a>
@@ -68,7 +69,7 @@ function Footer() {
                                             <a href="#" className="footertxt text-dark">Find a Store</a>
                                         </li>
                                         <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Careers</a>
+                                            <Link to="/Career" className="footertxt text-dark">Careers</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -81,22 +82,22 @@ function Footer() {
                                         <Accordion.Body>
                                             <ul className='List'>
                                                 <li className='footerli my-2'>
-                                                    <a href="#" className="footertxt text-dark">Order Status</a>
+                                                    <Link to="/Order" className="footertxt text-dark">Order Status</Link>
                                                 </li>
                                                 <li className='footerli my-2'>
-                                                    <a href="#" className="footertxt text-dark">Shipping and Delivery</a>
+                                                    <Link to="/Shipping" className="footertxt text-dark">Shipping and Delivery</Link>
                                                 </li>
                                                 <li className='footerli my-2'>
-                                                    <a href="#" className="footertxt text-dark">Return and Exchange Policy</a>
+                                                    <Link to="/Exchange" className="footertxt text-dark">Return and Exchange Policy</Link>
                                                 </li>
                                                 <li className='footerli my-2'>
-                                                    <a href="#" className="footertxt text-dark">FAQS</a>
+                                                    <Link to="/Faqs" className="footertxt text-dark">FAQS</Link>
                                                 </li>
                                                 <li className='footerli my-2'>
-                                                    <a href="#" className="footertxt text-dark">Privacy Policy</a>
+                                                    <Link to="/Privacy" className="footertxt text-dark">Privacy Policy</Link>
                                                 </li>
                                                 <li className='footerli my-2'>
-                                                    <a href="#" className="footertxt text-dark">Terms & Conditions</a>
+                                                    <Link to="/Terms" className="footertxt text-dark">Terms & Conditions</Link>
                                                 </li>
                                             </ul>
                                         </Accordion.Body>
@@ -108,22 +109,22 @@ function Footer() {
                                             Help
                                         </li>
                                         <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Order Status</a>
+                                            <Link to="/Order" className="footertxt text-dark">Order Status</Link>
                                         </li>
                                         <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Shipping and Delivery</a>
+                                            <Link to="/Shipping" className="footertxt text-dark">Shipping and Delivery</Link>
                                         </li>
                                         <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Return and Exchange Policy</a>
+                                            <Link to="/Exchange" className="footertxt text-dark">Return and Exchange Policy</Link>
                                         </li>
                                         <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">FAQS</a>
+                                            <Link to="/Faqs" className="footertxt text-dark">FAQS</Link>
                                         </li>
                                         <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Privacy Policy</a>
+                                            <Link to="/Privacy" className="footertxt text-dark">Privacy Policy</Link>
                                         </li>
                                         <li className='footerli my-2'>
-                                            <a href="#" className="footertxt text-dark">Terms & Conditions</a>
+                                            <Link to="/Terms" className="footertxt text-dark">Terms & Conditions</Link>
                                         </li>
                                     </ul>
                                 </div>

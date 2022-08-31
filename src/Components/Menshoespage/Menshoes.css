@@ -1,5 +1,5 @@
 .menpagehead {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
 }
@@ -30,10 +30,29 @@
 #menudropdown{
  height: 600% !important;
  position: absolute;
-left: -95px;
-top:30px;
+left: -105px;
+top:25px;
+overflow-x: hidden;
 }
 .sizebtn{
     border: 1px solid rgb(180, 174, 174);
     border-radius: 0;
+}
+#menudropdown::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+#menudropdown::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+#menudropdown::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }

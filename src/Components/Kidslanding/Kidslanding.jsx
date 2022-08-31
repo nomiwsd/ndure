@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import Img3 from '../Assets/Kidspage/slideimgkids.jpg'
-import Img8 from '../Assets/slideimg(4).jpg'
-import Img4 from '../Assets/slideimg(9).jpg'
-import Img7 from '../Assets/slideimg(9).jpg'
+import Img3 from '../Assets/slideimg(9).jpg'
+import Img4 from '../Assets/slideimg(2).jpg'
+import Img5 from '../Assets/Kidspage/slideimgkids.jpg'
+import Img6 from '../Assets/Kidspage/slideimg2d.jpg'
 import Img1 from '../Assets/Kidspage/Kidsshopshoes.jpg'
 import Img2 from '../Assets/Kidspage/Kidsshopapparel.jpg'
 import Mctimg1 from '../Assets/Kidspage/Sandalsboys.png'
@@ -54,17 +54,18 @@ function Kidslanding() {
                     </div>
                 </div>
 
-                <SwiperSlide className="swiperslide5 d-none d-md-block" data-hash="slide3"><img src={Img3} alt="wait for internet" /></SwiperSlide>
-                <SwiperSlide className="swiperslide6 d-block d-md-none d-lg-none d-xlg-none" data-hash="slide1"><img src={Img8} alt="wait for internet" /></SwiperSlide>
+                <SwiperSlide className="swiperslide5 d-none d-md-block" data-hash="slide3">
+                    <img src={Img3} alt="wait for internet" /></SwiperSlide>
+                <SwiperSlide className="swiperslide6 d-block d-md-none d-lg-none d-xlg-none" data-hash="slide1"><img src={Img4} alt="wait for internet" /></SwiperSlide>
                 <SwiperSlide
                     className="swiperslide3 d-none d-md-block"
                     data-hash="slide2">
-                    <img src={Img4} alt="wait for internet" />
+                    <img src={Img5} alt="wait for internet" />
                 </SwiperSlide>
                 <SwiperSlide
                     className="swiperslide4 d-block d-md-none d-lg-none d-xlg-none"
                     data-hash="slide1">
-                    <img src={Img7} alt="wait for internet" />
+                    <img src={Img6} alt="wait for internet" />
                 </SwiperSlide>
 
             </Swiper>
@@ -139,7 +140,7 @@ function Kidslanding() {
                         <img src={Mctimg7} className=" p-0" alt="wait for internet" />
                         <p className='fwp  p-0'>Boots</p>
                     </div>
-                    <div className="mx-1 row col-4 d-lg-none col-lg-2">
+       cj             <div className="mx-1 row col-4 d-lg-none col-lg-2">
                         <img src={Mctimg8} className=" p-0" alt="wait for internet" />
                         <p className='fwp  p-0'>SlipOns</p>
                     </div>
@@ -176,7 +177,6 @@ function Kidslanding() {
             </div>
             <div className='girlsfootwear d-none d-xl-block my-5'>
                 <h4 className='text-start  mx-4 '>GIRLS FOOTWEARS</h4>
-
                 <div className="m-0 p-0 d-flex flex-row d-flex d-none d-md-none d-lg-none d-xl-flex oversm ">
                     <div className='col-6  col-lg-2 px-2 py-2'>
                         <div className="card p-0" >
@@ -248,7 +248,7 @@ function Kidslanding() {
                     clickable: true,
                 }}
                 modules={[FreeMode, Pagination]}
-                className="mySwiper d-block d-md-block d-lg-block d-xl-none p-3  m-0">
+                className="mySwiper boysswiper d-block d-md-block d-lg-block d-xl-none p-3  m-0">
                 <SwiperSlide className='me-1 me-md-0 mb-4 pb-3 px-lg-0'>
                     <div className="mx-1 mx-lg-3 col-md-3 p-0 col-lg-2 ">
                         <img src={Mctimg9} className=" p-0" alt="" />
