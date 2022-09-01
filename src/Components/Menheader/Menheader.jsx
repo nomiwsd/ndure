@@ -22,19 +22,19 @@ function Menheader() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  // const [show2, setShow2] = useState(false);
+  const [show2, setShow2] = useState(false);
 
-  // const handleClose2 = () => setShow2(false);
-  // const handleShow2 = () => setShow2(true);
+  const handleClose2 = () => setShow2(false);
+  const handleShow2 = () => setShow2(true);
 
-  // const [show3, setShow3] = useState(false);
+  const [show3, setShow3] = useState(false);
 
-  // const handleClose3 = () => setShow3(false);
-  // const handleShow3 = () => setShow3(true);
+  const handleClose3 = () => setShow3(false);
+  const handleShow3 = () => setShow3(true);
 
   return (
     <div>
-      {/* <div className="row headerd  m-0 mx-lg-5">
+      <div className="row headerd  m-0 mx-lg-5">
         <div className="col-2 d-block d-md-none">
           <Button
             variant="toggle"
@@ -177,7 +177,7 @@ function Menheader() {
             </Offcanvas.Body>
           </Offcanvas>
         </div>
-      </div> */}
+      </div> 
         <div class="container">
           {/* First Navbar */}
           <div className="row m-0 py-3">    
