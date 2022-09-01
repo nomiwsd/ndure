@@ -1,6 +1,6 @@
 import React from 'react'
 import './Categories.css'
-import Color from "color";
+import {Link} from 'react-router-dom'
 import Men1 from "../Assets/Men(1).jpg"
 import Men2 from "../Assets/Men(2).jpg"
 import Men3 from "../Assets/Men(3).png"
@@ -21,7 +21,7 @@ function Categories() {
       <div className="row  align-items-center  justify-content-start  Mainsect m-0 mb-5 ">
         <div className="col-lg-3 col-md-3 col-12 p-0 d-block justify-content-start mb-3">
           <h3 className='categoryhead'>SHOP MEN</h3>
-          <button className='categorybtn px-2 py-2'>VIEW ALL CATEGORIES</button>
+          <Link to="/Menpage" className='categorybtn px-2 py-2'>VIEW ALL CATEGORIES</Link>
         </div>
         <div className="col-lg-8 col-md-9 col-12">
           <div className=" justify-content-start overfs m-0 gap-3  d-flex flex-row p-0">
@@ -56,7 +56,7 @@ function Categories() {
       <div className="row  align-items-center  justify-content-start  Mainsect m-0 mb-5 ">
         <div className="col-lg-3 col-md-3 col-12 p-0 d-block justify-content-start mb-3">
           <h3 className='categoryhead'>SHOP WOMEN</h3>
-          <button className='categorybtn px-2 py-2'>VIEW ALL CATEGORIES</button>
+          <Link to='/Womenpage' className='categorybtn px-2 py-2'>VIEW ALL CATEGORIES</Link>
         </div>
         <div className="col-lg-8 col-md-9 col-12">
           <div className=" justify-content-start overfs m-0 gap-3  d-flex flex-row p-0">
@@ -92,7 +92,7 @@ function Categories() {
       <div className="row  align-items-center  justify-content-start  Mainsect m-0 mb-5 ">
         <div className="col-lg-3 col-md-3 col-12 p-0 d-block justify-content-start mb-3">
           <h3 className='categoryhead'>SHOP KIDS</h3>
-          <button className='categorybtn px-2 py-2'>VIEW ALL CATEGORIES</button>
+          <Link to="/Kidspage"className='categorybtn px-2 py-2'>VIEW ALL CATEGORIES</Link>
         </div>
         <div className="col-lg-8 col-md-9 col-12">
           <div className=" justify-content-start overfs m-0 gap-3  d-flex flex-row p-0">

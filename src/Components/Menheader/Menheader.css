@@ -194,7 +194,53 @@ ul.breadcrumb li a:hover {
 html {
   overflow-x: hidden;
 }
+.Secondnavbar{
+  background-color: white;
+  top:70px;
+  z-index: 999;
+  width: 100%;
+  position: sticky !important;
+}
 
-.secnavbar {
-  position: -webkit-sticky;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navbar {
+  background-color:white;
+  color:#444444;
+  position: fixed;
+  top: -100px;
+  width: 100%;
+  transition: top 0.3s;
+  z-index:100 !important ;
+}
+.vl {
+  border-left: 1px solid black;
+  height: 30px;
 }

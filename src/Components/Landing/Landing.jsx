@@ -14,7 +14,7 @@ import Img7 from "../Assets/slideimg(2).jpg";
 import Img8 from "../Assets/slideimg(3).jpg";
 import Img9 from "../Assets/slideimg(4).jpg";
 import Img10 from "../Assets/slideimg(5).jpg";
-import { Autoplay, Navigation } from "swiper";
+import { Autoplay, Navigation,Pagination } from "swiper";
 import "./Landing.css";
 import { Link } from "react-router-dom";
 function Landing() {
@@ -33,7 +33,7 @@ function Landing() {
           clickable: true,
         }}
         navigation={true} 
-        modules={[Autoplay, Navigation]}
+        modules={[Autoplay, Navigation,Pagination]}
         className="mySwiper mainswiper mb-5 pb-md-0 pb-lg-0 position-relative"
       >
         <div className="row m-0 justify-content-center justify-content-end btnpos">

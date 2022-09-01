@@ -14,14 +14,23 @@
 @media screen and (min-width:1024px) {
   .mainswiper .swiper-pagination {
     position: absolute;
-    top: 300px !important;
+    top: 350px !important;
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);
     z-index: 99999 !important;
   }
 }
-
+@media screen and (min-width:1440px) {
+  .mainswiper .swiper-pagination {
+    position: absolute;
+    top: 500px !important;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 99999 !important;
+  }
+}
 @media screen and (max-width:320px) {
 
   .swiperslide img {
