@@ -1,15 +1,38 @@
-.headerd{
-    overflow-x: hidden;
-}
-.searchdiv{
+.searchdiv {
     position: relative;
 }
-.searchinp{
-    border-radius: 12px;
-    border: 1px solid black;
+
+.searchinput1 {
+    border-radius: 13px !important;
+    border: 2px solid black;
 }
-.searchic{
-    position:absolute;
+
+.searchicon1 {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    font-size: 20px;
+}
+.closebtn {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    font-size: 20px;
+}
+
+.searchicon2 {
+    position: absolute;
     top: 12px;
     right: 10px;
+    font-size: 20px;
+}
+.searchicon3 {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    font-size: 20px;
+}
+.searchinput2 {
+    border: radius 0 !important;
+    border: 2px solid black;
 }

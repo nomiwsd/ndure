@@ -16,8 +16,8 @@ function MenLanding() {
                 <div className='row m-0 justify-content-center justify-content-end btnpos'>
                     <div className="swiperbuttons row col-12 col-lg-5 col-md-8 gap-md-2 mx-0 gap-lg-2 align-items-center justify-content-center p-0">
                     <Link to='/Menshoes' className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">SHOES</Link>
-                        <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">APPAREL</button>
-                        <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">ACCESSORIES</button>
+                        <Link  to='/MenApparel' className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">APPAREL</Link>
+                        <Link to='/MenAccessories' className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">ACCESSORIES</Link>
                     </div>
                 </div>
 

@@ -29,7 +29,7 @@ function Footer() {
                         <section className="">
                             <div className="row">
                                 <hr className="w-100 clearfix d-md-none" />
-                                <Accordion className="accordian col-12 d-block d-md-none d-lg-none d-xlg-none" defaultActiveKey="0">
+                                <Accordion className="accordian accordianfooter col-12 d-block d-md-none d-lg-none d-xlg-none">
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header ><h5 className="accordianheader">About Ndure</h5></Accordion.Header>
                                         <Accordion.Body className="accordianbody">
@@ -76,7 +76,7 @@ function Footer() {
 
 
                                 <hr className="w-100 clearfix d-md-none" />
-                                <Accordion className="accordian col-12 d-block d-md-none px-xl-5 d-lg-none d-xlg-none" defaultActiveKey="0">
+                                <Accordion className="accordian accordianfooter col-12 d-block d-md-none px-xl-5 d-lg-none d-xlg-none">
                                     <Accordion.Item eventKey="1">
                                         <Accordion.Header><h5 className="accordianheader">Help</h5></Accordion.Header>
                                         <Accordion.Body>

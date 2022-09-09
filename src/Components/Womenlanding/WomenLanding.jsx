@@ -23,15 +23,16 @@ import Mctimg15 from '../Assets/Womenpage/SportsBra.jpg'
 import Bannerimg from '../Assets/Womenpage/womenbanner.jpg'
 import "swiper/css/free-mode";
 import { FreeMode, Pagination } from "swiper";
+import { Link } from 'react-router-dom';
 function WomenLanding() {
   return (
     <div>
       <Swiper className="mySwiper mb-3  pb-md-0 pb-lg-0 position-relative">
         <div className='row m-0 justify-content-center justify-content-end btnpos'>
           <div className="swiperbuttons row col-12 col-lg-5 col-md-8 gap-md-2 mx-0 gap-lg-2 align-items-center justify-content-center p-0">
-            <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">SHOES</button>
-            <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">APPAREL</button>
-            <button className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">ACCESSORIES</button>
+            <Link  to='/Womenshoespage'className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">SHOES</Link>
+            <Link to='/Womenapparelpage' className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">APPAREL</Link>
+            <Link to='/Womenaccessoriespage' className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn">ACCESSORIES</Link>
           </div>
         </div>
 

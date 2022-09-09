@@ -14,113 +14,102 @@ import Img7 from "../Assets/slideimg(2).jpg";
 import Img8 from "../Assets/slideimg(3).jpg";
 import Img9 from "../Assets/slideimg(4).jpg";
 import Img10 from "../Assets/slideimg(5).jpg";
-import { Autoplay, Navigation,Pagination } from "swiper";
+import { Autoplay, Navigation} from "swiper";
 import "./Landing.css";
 import { Link } from "react-router-dom";
 function Landing() {
   return (
-    <div>
-      <Swiper
-        spaceBetween={50}
-        hashNavigation={{
-          watchState: true,
-        }}
-        autoplay={{
-          delay: 3500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true} 
-        modules={[Autoplay, Navigation,Pagination]}
-        className="mySwiper mainswiper mb-5 pb-md-0 pb-lg-0 position-relative"
-      >
-        <div className="row m-0 justify-content-center justify-content-end btnpos">
-          <div className="swiperbuttons row col-12 col-lg-5 col-md-8 gap-md-2 mx-0 gap-lg-2 align-items-center justify-content-center p-0">
-            <Link
-              to="./Menpage"
-              className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn"
-            >
-              MEN
-            </Link>
-            <Link
-              to="./Womenpage"
-              className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn"
-            >
-              WOMEN
-            </Link>
-            <Link
-              to="./Kidspage"
-              className="col-lg-3 col-4 col-md-3 p-0 py-2 swiperbtn"
-            >
-              KIDS
-            </Link>
-          </div>
+    <div className='mb-5' >
+    <Swiper
+      spaceBetween={50}
+      hashNavigation={{
+        watchState: true,
+      }}
+      autoplay={{
+        delay: 3500,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: true,
+      }}
+      navigation={true}
+      modules={[Autoplay, Navigation]}
+      className="mySwiper mainswiper position-relative">
+        {/* Next Pages Button Div  */}
+      <div className="row m-0 justify-content-center buttonsposotion">
+        <div className="swiperbuttons row  col-lg-5 col-md-8 col-12 gap-md-2 gap-lg-2 mx-0 p-0 justify-content-center">
+          <Link to='./Menpage' className="col-md-3 col-4 p-0 py-2 swiperbtn">MEN
+          </Link>
+          <Link  to='./Womenpage' className="col-md-3 col-4 p-0 py-2 swiperbtn">WOMEN
+          </Link>
+          <Link  to='./Kidspage'className="col-md-3 col-4 p-0 py-2 swiperbtn">KIDS
+          </Link>
         </div>
+      </div>
 
-        <SwiperSlide
-          className="swiperslide1 d-none d-md-block"
-          data-hash="slide1"
-        >
-          <img src={Img1} alt="wait for internet" />
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide2 d-block d-md-none d-lg-none d-xlg-none"
-          data-hash="slide1"
-        >
-          <img src={Img6} alt="wait for internet" />
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide3 d-none d-md-block"
-          data-hash="slide2"
-        >
-          <img src={Img2} alt="wait for internet" />
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide4 d-block d-md-none d-lg-none d-xlg-none"
-          data-hash="slide1"
-        >
-          <img src={Img7} alt="wait for internet" />
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide5 d-none d-md-block"
-          data-hash="slide3"
-        >
-          <img src={Img3} alt="wait for internet" />
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide6 d-block d-md-none d-lg-none d-xlg-none"
-          data-hash="slide1"
-        >
-          <img src={Img8} alt="wait for internet" />
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide7 d-none d-md-block"
-          data-hash="slide4"
-        >
-          <img src={Img4} alt="wait for internet" />
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide8 d-block d-md-none d-lg-none d-xlg-none"
-          data-hash="slide1"
-        >
-          <img src={Img9} alt="wait for internet" />
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide9 d-none d-md-block"
-          data-hash="slide5"
-        >
-          <img src={Img5} alt="wait for internet" />
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide10 d-block d-md-none d-lg-none d-xlg-none"
-          data-hash="slide1"
-        >
-          <img src={Img10} alt="wait for internet" />
-        </SwiperSlide>
-      </Swiper>
-    </div>
+      <SwiperSlide
+        className="swiperslide1 d-none d-md-block"
+        data-hash="slide1"
+      >
+        <img src={Img1} alt="wait for internet" />
+      </SwiperSlide>
+      <SwiperSlide
+        className="swiperslide2 d-block d-md-none d-lg-none d-xlg-none"
+        data-hash="slide1"
+      >
+        <img src={Img6} alt="wait for internet" />
+      </SwiperSlide>
+      <SwiperSlide
+        className="swiperslide3 d-none d-md-block"
+        data-hash="slide2"
+      >
+        <img src={Img2} alt="wait for internet" />
+      </SwiperSlide>
+      <SwiperSlide
+        className="swiperslide4 d-block d-md-none d-lg-none d-xlg-none"
+        data-hash="slide2"
+      >
+        <img src={Img7} alt="wait for internet" />
+      </SwiperSlide>
+      <SwiperSlide
+        className="swiperslide5 d-none d-md-block"
+        data-hash="slide3"
+      >
+        <img src={Img3} alt="wait for internet" />
+      </SwiperSlide>
+      <SwiperSlide
+        className="swiperslide6 d-block d-md-none d-lg-none d-xlg-none"
+        data-hash="slide3"
+      >
+        <img src={Img8} alt="wait for internet" />
+      </SwiperSlide>
+      <SwiperSlide
+        className="swiperslide7 d-none d-md-block"
+        data-hash="slide4"
+      >
+        <img src={Img4} alt="wait for internet" />
+      </SwiperSlide>
+      <SwiperSlide
+        className="swiperslide8 d-block d-md-none d-lg-none d-xlg-none"
+        data-hash="slide4"
+      >
+        <img src={Img9} alt="wait for internet" />
+      </SwiperSlide>
+      <SwiperSlide
+        className="swiperslide9 d-none d-md-block"
+        data-hash="slide5"
+      >
+        <img src={Img5} alt="wait for internet" />
+      </SwiperSlide>
+      <SwiperSlide
+        className="swiperslide10 d-block d-md-none d-lg-none d-xlg-none"
+        data-hash="slide5"
+      >
+        <img src={Img10} alt="wait for internet" />
+      </SwiperSlide>
+    </Swiper>
+
+  </div>
   );
 }
 

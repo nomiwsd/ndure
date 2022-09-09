@@ -1,12 +1,7 @@
 import React, { useEffect } from 'react'
 import Form from "react-bootstrap/Form";
 import { BsSearch } from "react-icons/bs";
-import { FaUserAlt, FaLessThan, FaGreaterThan } from "react-icons/fa";
-import { FiHeart } from "react-icons/fi";
-import { MdLegendToggle } from "react-icons/md";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import Logo from "../Assets/Logo.webp";
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
@@ -141,7 +136,7 @@ function Secondnavbar() {
         <div className="col-5 navitem p-0 d-inline-flex justify-content-end">
         <div className=" d-flex p-0 ">
             <div className='vl me-2'></div>
-                  <BsSearch className="me-3" />
+                  <BsSearch className="me-3 mt-2" />
             <div className='vl me-2'></div>     
                <a className="cartlink px-2" onClick={myhandleShow}>
                 <AiOutlineShoppingCart title="Cart icon" />

@@ -19,6 +19,14 @@ import Exchange from './Components/Exchange/Exchange';
 import Faqs from './Components/Faqs/Faqs';
 import Privacy from './Components/Privacy/Privacy';
 import Terms from './Components/Terms/Terms';
+import MenApparel from './Components/MenApparelpage/MenApparel';
+import MenAccessories from './Components/MenAccessories/MenAccessories';
+import Womenshoespage from './Components/WomenShoesPage/Womenshoespage';
+import Womenapparelpage from './Components/WomenApparelPage/Womenapparelpage';
+import Womenaccessoriespage from './Components/WomenAccessoriespage/Womenaccessoriespage';
+import Boysshoespage from './Components/BoysShoesPage/Boysshoespage';
+import Girlsshoespage from './Components/GirlsShoesPage/Girlsshoespage';
+import Kidsaccessoriespage from './Components/KidsAccessories/Kidsaccessoriespage';
 function App() {
   return (
     <div className="App">
@@ -34,6 +42,14 @@ function App() {
         <Route exact path="/Womenpage" element={<Womenpage/>}/>
         <Route exact path="/Kidspage" element={<Kidspage/>}/>
         <Route exact path="/Menshoes" element={<Menshoes/>}/>
+        <Route exact path="/MenApparel" element={<MenApparel/>}/>
+        <Route exact path="/MenAccessories" element={<MenAccessories/>}/>
+        <Route exact path="/Womenshoespage" element={<Womenshoespage/>}/>
+        <Route exact path="/Womenapparelpage" element={<Womenapparelpage/>}/>
+        <Route exact path="/Womenaccessoriespage" element={<Womenaccessoriespage/>}/>
+        <Route exact path="/Boysshoespage" element={<Boysshoespage/>}/>
+        <Route exact path="/Girlsshoespage" element={<Girlsshoespage/>}/>
+        <Route exact path="/Kidsaccessoriespage" element={<Kidsaccessoriespage/>}/>
         <Route exact path="/Shoeinfo" element={<Shoeinfo/>}/>
         <Route exact path="/Aboutndure" element={<Aboutndure/>}/>
         <Route exact path="/Career" element={<Career/>}/>
