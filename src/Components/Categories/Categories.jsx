@@ -8,7 +8,7 @@ function Categories({data}) {
          <div className="row  align-items-center  justify-content-start  Mainsect m-0 mb-5 ">
         <div className="col-lg-3 col-md-3 col-12 p-0 d-block justify-content-start mb-3">
           <h3 className='categoryhead'>{data.title}</h3>
-          <button className='categorybtn px-2 py-2'>{data.buttontext}</button>
+          <Link className='categorybtn px-2 py-2' to={`${data.linkto}`}>{data.buttontext}</Link>
         </div>
         <div className="col-lg-8 col-md-9 col-12">
           <div className=" justify-content-start overfs m-0 gap-3  d-flex flex-row p-0">

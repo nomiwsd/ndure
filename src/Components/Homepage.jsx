@@ -15,7 +15,7 @@ function Homepage() {
     desc1:'SHOES',
     desc2:'APPAREL',
     desc3:'ACCESSORIES',
-    linkto:'/'
+    linkto:'/Menpage'
   },
     {
     title:'SHOP WOMEN',
@@ -25,7 +25,8 @@ function Homepage() {
     buttontext:'VIEW ALL CATEGORIES',
     desc1:'SHOES',
     desc2:'APPAREL',
-    desc3:'ACCESSORIES'
+    desc3:'ACCESSORIES',
+    linkto:'/Womenpage'
   },
   {
     title:'SHOP KIDS',
@@ -35,7 +36,8 @@ function Homepage() {
     buttontext:'VIEW ALL CATEGORIES',
     desc1:'SHOES',
     desc2:'BOYS',
-    desc3:'GIRLS'
+    desc3:'GIRLS',
+    linkto:'/Kidspage'
   },
   {
     title:'SALE',
